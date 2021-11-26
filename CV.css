@@ -1,0 +1,114 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+
+}
+.kolom0{
+    grid-column: 1;
+    text-align: center;
+    float: left;
+    margin-top: 22px;
+    background-color: #30d5c8;
+    width: 200px;
+    color: black;
+}
+.Kolom1{
+    grid-column: 2;
+    text-align: center;
+    float: left;
+    margin-top: 22px;
+    background-color: #30d5c8;
+    width: 250px;
+}
+.Kolom2{
+    grid-column: 3;
+    float: left;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 22px;
+    width: 300px;
+}
+.kolom3{
+    grid-column: 4;
+    float: left;
+    background-color: white ;
+    color: black;
+    text-align: center;
+    width: 270px;
+    margin-top: 22px;
+}
+.kolom4{
+    grid-column: 5;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 270px;
+    margin-top: 22px;
+}
+.kolom5{
+    grid-column: 6;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 270px;
+    margin-top: 22px;
+}
+.foto{
+    border-radius: 50%;
+    grid-column: 1/5;
+}
+.kennis{
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+}
+.stages{
+    text-align: left;
+}
+.nee {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    margin-top: 14px ;
+    margin-right: 10px;
+    margin-left: 130px;
+    border-style: solid;
+}
+.ja{
+    width: 16px;
+    height: 16px;
+    margin-top: 15px ;
+    margin-right: 100px;
+    margin-left: 110px;
+    border: white;
+}
+.witruimte{
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    margin-top: 24px ;
+    margin-right: 10px;
+    margin-left: 130px;
+    border-style: solid;
+    border-color: white;
+}
+#word{
+    margin-top: 0px;
+}
+#Belg{
+    margin-top: 16px;
+}
+#witruimte{
+    width: 100px;
+    height: 156px;
+    background-color: #30d5c8 ;
+ }
+ #ontzichtbaar{
+     color: #30d5c8;
+     font-size: 24px;
+ }
+
